@@ -39,6 +39,7 @@ async function getJokes() {
     // Disable Button
     toggleButton();
   } catch (error) {
+    // Catch Erros Here
     console.log("whoops", error);
   }
 }
